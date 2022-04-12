@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose';
-import * as bcrypt from 'bcrypt';
+// import * as bcrypt from 'bcrypt';
 
 // const salt: number = 10;
 

@@ -14,7 +14,7 @@ export class AuthService {
 
   async validateUser(loginUserDto: LoginUserDto): Promise<any> {
     const user = await this.usersService.login(loginUserDto);
-    // console.log(user, "++++++++++++++++++++++++++++");
+    console.log(user, "++++++++++++++++++++++++++++");
     if (user) {
       // const matched = await comparedPassword( user.password)
       // console.log(matched, "******************************************************");
